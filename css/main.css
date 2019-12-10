@@ -5,7 +5,7 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  font: normal 100%/1.5 'Sulphur Point', sans-serif;
+  font: normal 100%/1.5 "Sulphur Point", sans-serif;
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -34,12 +34,11 @@ header h1 {
 h3 {
   text-align: center;
   font-size: 2rem;
-  font-family:'Sulphur Point', sans-serif;
+  font-family: "Sulphur Point", sans-serif;
   color: #613000;
   margin-bottom: 0;
   position: relative;
   margin-top: 16rem;
-
 }
 
 nav li {
@@ -52,7 +51,7 @@ nav {
 }
 
 .img-flex {
-  display:block;
+  display: block;
   width: 100%;
 }
 
@@ -89,8 +88,9 @@ nav a {
 .About {
   color: #613000;
 }
+
 .image1 {
-  width:20%;
+  width: 20%;
   align-items: center;
 }
 
@@ -98,6 +98,7 @@ nav a {
   text-align: center;
   margin-top: 1rem;
 }
+
 h2 {
   color: #613000;
   display: inline-block;
@@ -111,10 +112,9 @@ footer {
 }
 
 .mrcoco {
-  width:30%;
+  width: 30%;
   display: inline-block;
   margin: 0;
-  display: flex;
 }
 
 .about {
@@ -122,7 +122,7 @@ footer {
 }
 
 .image {
-  width:100%;
+  width: 100%;
 }
 
 .image2 {
@@ -142,7 +142,6 @@ img {
   margin-top: .8rem;
   align-items: center;
 }
-
 
 .para {
   justify-content: center;
@@ -184,6 +183,7 @@ p {
   align-items: end;
   margin-left: auto;
 }
+
 nav a:hover {
   background-color: #964300;
   color: #fff;
@@ -199,7 +199,6 @@ nav a:hover {
   text-decoration: none;
   border: solid 2px #613000;
   border-radius: 5px;
-  background-color: #613000;
   color: #fff;
   font-size: .875rem;
   padding: 0;
@@ -212,7 +211,7 @@ p.para {
 }
 
 .first {
-  margin-left:1rem;
+  margin-left: 1rem;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -249,7 +248,7 @@ p.para {
   }
 
   .socialmedias {
-    margin-top:1rem;
+    margin-top: 1rem;
   }
 
   .image1 {
@@ -276,8 +275,9 @@ p.para {
   }
 
   .socialmedias {
-    margin-top:4rem;
+    margin-top: 4rem;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -309,18 +309,16 @@ p.para {
   nav a {
     text-align: right;
     margin-left: 3rem;
-    text-align: center;
     margin-top: 1rem;
   }
 
   .socialmedias {
-    margin-top:9rem;
+    margin-top: 9rem;
   }
 
 }
 
 @media only screen and (min-width: 90em) {
-
 
   html {
     font-size: 130%;
@@ -348,11 +346,11 @@ p.para {
   nav a {
     text-align: right;
     margin-left: 7rem;
-    text-align: center;
     margin-top: 1rem;
   }
 
   .socialmedias {
     margin-top: 9rem;
   }
+
 }
