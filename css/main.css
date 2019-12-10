@@ -23,7 +23,7 @@ body {
 
 header h1 {
   text-align: center;
-  font-size:"Sulphur Point", sans-serif;
+  font-family: "Sulphur Point", sans-serif;
   color: #613000;
   margin: 0;
   padding-top: .65rem;
@@ -34,7 +34,7 @@ header h1 {
 h3 {
   text-align: center;
   font-size: 2rem;
-  font-size:'Sulphur Point', sans-serif;
+  font-family:'Sulphur Point', sans-serif;
   color: #613000;
   margin-bottom: 0;
   position: relative;
@@ -51,9 +51,9 @@ nav {
   padding-bottom: 1rem;
 }
 
-img-flex {
+.img-flex {
   display:block;
-  width: 30%;
+  width: 100%;
 }
 
 header {
@@ -84,7 +84,7 @@ nav a {
   justify-content: flex-start;
   margin-left: 1rem;
   white-space: nowrap;
-  }
+}
 
 .About {
   color: #613000;
@@ -96,7 +96,7 @@ nav a {
 
 .socialmedias {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 h2 {
   color: #613000;
@@ -131,14 +131,12 @@ footer {
 }
 
 img {
-  width: 100px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-right: 1rem;
   align-items: center;
 }
 
 .img {
-  width: 100px;
+  width: 200px;
   margin-left: auto;
   margin-right: auto;
   margin-top: .8rem;
@@ -169,8 +167,10 @@ p {
 }
 
 .twitter-card {
-  width: 70%;
+  width: 20em;
   flex-direction: column;
+  align-content: end;
+  margin-right: auto;
 }
 
 .socialmedia {
@@ -178,9 +178,11 @@ p {
 }
 
 .holiday-card {
-  width: 20%;
+  width: 20em;
   display: flex;
   flex-direction: column;
+  align-items: end;
+  margin-left: auto;
 }
 nav a:hover {
   background-color: #964300;
@@ -190,7 +192,7 @@ nav a:hover {
 .circles {
   display: flex;
   padding-bottom: 1.5rem;
-  }
+}
 
 .btn {
   background-color: #333;
@@ -238,6 +240,23 @@ p.para {
     align-items: center;
   }
 
+  img {
+    width: 200px;
+  }
+
+  h3 {
+    margin-top: 6rem;
+  }
+
+  .socialmedias {
+    margin-top:1rem;
+  }
+
+  .image1 {
+    width: 19%;
+    text-align: center;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -256,6 +275,9 @@ p.para {
     width: 50%;
   }
 
+  .socialmedias {
+    margin-top:4rem;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -286,9 +308,13 @@ p.para {
 
   nav a {
     text-align: right;
-    margin-left: 7rem;
+    margin-left: 3rem;
     text-align: center;
     margin-top: 1rem;
+  }
+
+  .socialmedias {
+    margin-top:9rem;
   }
 
 }
@@ -296,33 +322,37 @@ p.para {
 @media only screen and (min-width: 90em) {
 
 
-    html {
-      font-size: 130%;
-    }
+  html {
+    font-size: 130%;
+  }
 
-    header h1 {
-      text-align: left;
-      margin-left: .79rem;
-      padding-top: .57rem;
-    }
+  header h1 {
+    text-align: left;
+    margin-left: .79rem;
+    padding-top: .57rem;
+  }
 
-    header {
-      display: flex;
-    }
+  header {
+    display: flex;
+  }
 
-    h1 {
-      margin-bottom: 0;
-      margin-right: 4rem;
-    }
+  h1 {
+    margin-bottom: 0;
+    margin-right: 4rem;
+  }
 
-    nav ul {
-      text-align: right;
-    }
+  nav ul {
+    text-align: right;
+  }
 
-    nav a {
-      text-align: right;
-      margin-left: 7rem;
-      text-align: center;
-      margin-top: 1rem;
-    }
+  nav a {
+    text-align: right;
+    margin-left: 7rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .socialmedias {
+    margin-top: 9rem;
+  }
 }
