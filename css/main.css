@@ -46,6 +46,14 @@ nav li {
   list-style-type: none;
 }
 
+.holiday-card .btn:hover {
+  background-color: #613000;
+}
+
+.twitter-card .btn:hover {
+  background-color: #613000;
+}
+
 nav {
   padding-bottom: 1rem;
 }
@@ -136,7 +144,7 @@ footer {
   margin: 0;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   width: 100%;
 }
 
@@ -293,8 +301,8 @@ p.para {
   }
 
   .circles {
-  display: flex;
-  padding-top: 1rem;
+    display: flex;
+    padding-top: 1rem;
   }
 
 }
@@ -322,7 +330,7 @@ p.para {
 
   header h1 {
     text-align: left;
-    margin-left: .9rem;
+    margin-left: 1.5rem;
   }
 
   nav a {
@@ -333,6 +341,10 @@ p.para {
 
   .socialmedias {
     margin-top: 1rem;
+  }
+
+  h2 {
+    margin-left: 1.5rem;
   }
 
 }
