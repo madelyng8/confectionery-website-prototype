@@ -331,11 +331,11 @@ p.para {
   header h1 {
     text-align: left;
     margin-left: 1.5rem;
+    margin-right: 1.5rem;
   }
 
   nav a {
     text-align: right;
-    margin-left: 3rem;
     margin-top: 1rem;
   }
 
